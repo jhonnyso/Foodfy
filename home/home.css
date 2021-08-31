@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-black: #111111;
+  --color-pink: #fbdfdb;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ==== Header ==== */
+
+.cabecalho {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.cabecalho-info {
+  color: var(--color-black);
+  display: flex;
+  padding: 36px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  right: 32px;
+}
+
+nav ul {
+  font-size: 1em;
+  list-style: none;
+  display: flex;
+  margin: 0 122px;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-weight: 500;
+}
+
+.nav-info ul li a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.nav-info ul li a:hover {
+  cursor: pointer;
+  color: var(--color-pink);
+  transition: color 450ms;
+  border-bottom: 2px solid var(--color-pink);
+  padding-bottom: 3px;
+}
+/* ==== Introdução ==== */
+
+.introducao {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: var(--color-pink);
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 60px;
+}
+
+.introducao-info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.introducao-info h1,
+p {
+  padding-right: 20px;
+}
+
+.introducao-info h1 {
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.introducao-info p {
+  max-width: 314px;
+  line-height: 2;
+  margin-top: 10px;
+}
+
+.introducao-info img {
+  margin-left: 214px;
+}
+
+/* ==== Receitas ==== */
+
+.receitas {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.receitas-info {
+  color: var(--color-black);
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.receitas h2 {
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.pratos img {
+  max-width: 300px;
+  max-height: 140px;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.pratos p {
+  padding-top: 20px;
+  font-size: 1.125em;
+  color: var(--color-black);
+}
+
+.pratos cite {
+  padding-bottom: 30px;
+  color: #777777;
+  font-size: 0.875em;
+}
+
+/* ==== Footer ==== */
+
+.footer {
+  max-width: 1600px;
+  height: 62px;
+  margin-top: 50px;
+  font-size: 0.875em;
+  color: #999999;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==== PÁG SOBRE  ==== */
+
+.main-sobre {
+  margin: 0 auto;
+  width: 940px;
+  height: 280px;
+  line-height: 2;
+}
+
+.main-content h2 {
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.main-content h3 {
+  color: var(--color-black);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+
+.main-content p {
+  color: #444444;
+  font-size: 1.125em;
+  text-align: justify;
+}
